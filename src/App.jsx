@@ -1,12 +1,21 @@
 
 import './App.css'
+import DaisyNav from './Components/Nav/DaisyNav'
+import NavBar from './Components/Nav/NavBar'
 
 function App() {
   
 
   return (
     <>
-      <h1></h1>
+      <header>
+        <DaisyNav></DaisyNav>
+        <NavBar></NavBar>
+      </header>
+
+      <main>
+        
+      </main>
     </>
   )
 }
