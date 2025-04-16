@@ -15,7 +15,7 @@ const PricingData = ({pricing}) => {
         <div className="p-2">
           {
             features.map((feature, index) => 
-            <div className='grid grid-cols-[30px_1fr] py-2'> <CircleCheckBig className= ' text-amber-950'></CircleCheckBig> <p key={index}>{feature}</p> </div>)
+            <div key={index} className='grid grid-cols-[30px_1fr] py-2'> <CircleCheckBig className= ' text-amber-950'></CircleCheckBig> <p>{feature}</p> </div>)
           }
         </div>
       </div>
